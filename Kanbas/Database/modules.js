@@ -89,6 +89,7 @@ export default [
       },
     ],
   },
+
   {
     _id: "M201",
     name: "Introduction to Computer Science",
@@ -179,6 +180,7 @@ export default [
       },
     ],
   },
+
   {
     _id: "M301",
     name: "Fundamentals of Discrete Mathematics",

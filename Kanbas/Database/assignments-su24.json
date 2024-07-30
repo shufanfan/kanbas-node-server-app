@@ -1,0 +1,75 @@
+[
+  {
+    "title": "A1_React JS",
+    "course": "CS1234",
+    "startdate": "May 6, 2024,12:00am",
+    "enddate": "May 13, 2024,11:59pm",
+    "points": 100,
+    "description": "React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications."
+  },
+
+  {
+    "title": "A2_React Components and State",
+    "course": "CS1234",
+    "startdate": "May 13, 2024,12:00am",
+    "enddate": "May 20, 2024,11:59pm",
+    "points": 100,
+    "description": "React components are small, reusable pieces of code that return a React element to be rendered to the page. The simplest version of React component is a plain JavaScript function that returns a React element."
+  },
+  {
+    "title": "A3_Advanced React",
+    "course": "CS1234",
+    "startdate": "May 20, 2024,12:00am",
+    "enddate": "May 27, 2024,11:59pm",
+    "points": 100,
+    "description": "React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications."
+  },
+  {
+    "title": "A1_Introduction to Python",
+    "course": "CS5001",
+    "startdate": "May 6, 2024,12:00am",
+    "enddate": "May 13, 2024,11:59pm",
+    "points": 100,
+    "description": "Python is an interpreted, high-level and general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant whitespace."
+  },
+  {
+    "title": "A2_Functions and  Recursion",
+    "course": "CS5001",
+    "startdate": "May 13, 2024,12:00am",
+    "enddate": "May 20, 2024,11:59pm",
+    "points": 100,
+    "description": "A function is a block of code which only runs when it is called. You can pass data, known"
+  },
+  {
+    "title": "A3_Data Structures in Python",
+    "course": "CS5001",
+    "startdate": "May 20, 2024,12:00am",
+    "enddate": "May 27, 2024,11:59pm",
+    "points": 100,
+    "description": "A data structure is a particular way of organizing data in a computer so that it can be used effectively."
+  },
+  {
+    "title": "A1_Sets, Relations and Functions",
+    "course": "CS5002",
+    "startdate": "May 6, 2024,12:00am",
+    "enddate": "May 13, 2024,11:59pm",
+    "points": 100,
+    "description": "A set is a collection of distinct objects, considered as an object in its own right. Sets are one of the most fundamental concepts in mathematics."
+  },
+  {
+    "title": "A2_Logical Reasoning",
+    "course": "CS5002",
+    "startdate": "May 13, 2024,12:00am",
+    "enddate": "May 20, 2024,11:59pm",
+    "points": 100,
+    "description": "Logical reasoning is the process of using a rational, systematic series of steps based on sound mathematical procedures and given statements to arrive at a conclusion."
+  },
+  {
+    "title": "A3_Proof Techniques",
+    "course": "CS5002",
+    "startdate": "May 20, 2024,12:00am",
+    "enddate": "May 27, 2024,11:59pm",
+    "points": 100,
+    "description": "Proof techniques are the methods used to prove that a given statement is true."
+  }
+]

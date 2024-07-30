@@ -1,0 +1,74 @@
+[
+  {
+    "number": "CS1234",
+    "name": "CS1234 React JS",
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15",
+    "department": "D123",
+    "credits": 4,
+    "description": "Full Stack software developer"
+  },
+  {
+    "number": "CS5001",
+    "name": "CS5001 Intensive Foundations of CS",
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15",
+    "department": "D123",
+    "credits": 3,
+    "description": "Introduction to Python"
+  },
+  {
+    "number": "CS5002",
+    "name": " CS5002 Discrete Structures",
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15",
+    "department": "D123",
+    "credits": 4,
+    "description": "Introduction to Discrete Mathematics"
+  },
+  {
+    "number": "CS5004",
+    "name": "CS5004 Object-Oriented Design",
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15",
+    "department": "D134",
+    "credits": 3,
+    "description": "Object-Oriented Programming"
+  },
+  {
+    "number": "CS5008",
+    "name": "CS5008 Data Structures",
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15",
+    "department": "D134",
+    "credits": 3,
+    "description": "Common Data Structures and Algorithms"
+  },
+  {
+    "number": "CS5350",
+    "name": "CS5350 Computational Geometry",
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15",
+    "department": "D134",
+    "credits": 3,
+    "description": " Geometry in applied applications"
+  },
+  {
+    "number": "CS5800",
+    "name": "CS5800 Algorithms",
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15",
+    "department": "Languages",
+    "credits": 3,
+    "description": "Advanced Algorithms"
+  },
+  {
+    "number": "CS5340",
+    "name": "CS5340 Human Computer Interation",
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15",
+    "department": "Political Studies",
+    "credits": 4,
+    "description": "Human Computer Interation"
+  }
+]
