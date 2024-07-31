@@ -1,13 +1,14 @@
 import mongoose from "mongoose";
 const courseSchema = new mongoose.Schema(
   {
-    number: String,
-    name: String,
-    startDate: String,
-    endDate: String,
-    department: Date,
+    name: { type: String, required: true, unique: true },
+    number: { type: String, required: true, unique: true },
+    startDate: Date,
+    endDate: Date,
+    department: String,
     credits: Number,
     description: String,
+    author: String,
   },
   { collection: "courses" }
 );

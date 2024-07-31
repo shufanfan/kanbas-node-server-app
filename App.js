@@ -7,7 +7,6 @@ import CourseRoutes from "./Kanbas/Courses/routes.js";
 import ModuleRoutes from "./Kanbas/Modules/routes.js";
 import AssignmentRoutes from "./Kanbas/Assignments/routes.js";
 import UserRoutes from "./Kanbas/User/routes.js";
-
 import cors from "cors";
 import mongoose from "mongoose";
 
@@ -24,7 +23,7 @@ app.use(
 );
 
 const sessionOptions = {
-  secret: "any string",
+  secret: process.env.SESSION_SECRET || "what ever",
   resave: false,
   saveUninitialized: false,
 };
