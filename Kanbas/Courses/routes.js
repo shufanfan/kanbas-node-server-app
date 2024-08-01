@@ -1,27 +1,44 @@
 import * as dao from "./dao.js";
 export default function CourseRoutes(app) {
-  const createCourse = async (req, res) => {
-    const course = await dao.createCourse(req.body);
+  app.post("/api/courses", async (req, res) => {
+    try {
+      const existingCourse = await course.findOne({ number: req.body.number });
+      if (existingCourse) {
+        return res
+          .status(400)
+          .json({ message: "Course with this number already exists" });
+      }
+      const course = await dao.createCourse(req.body);
+      res.status(201).send(course);
+    } catch (error) {
+      console.error("Server Error:", error);
+      res.status(500).json({ message: error.message });
+    }
+  });
+  app.delete("/api/courses/:id", async (req, res) => {
+    const { id } = req.params;
+    const status = await dao.deleteCourse(id);
+    res.json(status);
+  });
+  app.put("/api/courses/:id", async (req, res) => {
+    const { id } = req.params;
+    const newCourse = req.body;
+    const course = await dao.updateCourse(id, newCourse);
     res.json(course);
-  };
-  app.post("/api/courses", createCourse);
+  });
 
-  const findAllCourses = async (req, res) => {
+  app.get("/api/courses/:id", async (req, res) => {
+    const { id } = req.params;
+    const course = await dao.findCourseById(id);
+    if (!course) {
+      res.status(404).json({ message: `Unable to find course with ID ${id}` });
+      return;
+    }
+    res.json(course);
+  });
+
+  app.get("/api/courses", async (req, res) => {
     const courses = await dao.findAllCourses();
-    res.json(courses);
-  };
-  app.get("/api/courses", findAllCourses);
-
-  const updateCourse = async (req, res) => {
-    const { courseId } = req.params;
-    const status = await dao.updateCourse(courseId, req.body);
-    res.json(status);
-  };
-  app.put("/api/courses/:courseId", updateCourse);
-
-  const deleteCourse = async (req, res) => {
-    const status = await dao.deleteCourse(req.params.courseId);
-    res.json(status);
-  };
-  app.delete("/api/courses/:courseId", deleteCourse);
+    res.send(courses);
+  });
 }
