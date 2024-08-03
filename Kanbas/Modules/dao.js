@@ -2,9 +2,9 @@ import model from "./model.js";
 
 export const createModule = async (courseId, module) => {
   delete module._id;
-  module.id = new Date().getTime().toString();
+  //module.id = new Date().getTime().toString();
   module.course = courseId;
-  return await model.create(module);
+  return model.create(module);
 };
 
 export const findAllModulesForCourse = async (courseId) => {
@@ -20,5 +20,6 @@ export const updateModule = async (moduleId, module) => {
 };
 
 export const deleteModule = async (moduleId) => {
-  return await model.deleteOne({ id: moduleId });
+  console.log("Deleting module with ID:", moduleId);
+  return await model.deleteOne({ _id: moduleId });
 };
