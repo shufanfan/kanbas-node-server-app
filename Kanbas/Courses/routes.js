@@ -2,11 +2,12 @@ import * as dao from "./dao.js";
 export default function CourseRoutes(app) {
   app.post("/api/courses", async (req, res) => {
     try {
-      const existingCourse = await course.findOne({ number: req.body.number });
-      if (existingCourse) {
+      const { name, description } = req.body;
+      if (!name || !description) {
+        console.log("Missing title or description");
         return res
           .status(400)
-          .json({ message: "Course with this number already exists" });
+          .json({ message: "Name and description are required." });
       }
       const course = await dao.createCourse(req.body);
       res.status(201).send(course);

@@ -1,13 +1,24 @@
 import model from "./model.js";
-export const createModule = (cid, module) => {
+
+export const createModule = async (courseId, module) => {
   delete module._id;
   module.id = new Date().getTime().toString();
-  module.course = cid;
-  return model.create(module);
+  module.course = courseId;
+  return await model.create(module);
 };
-export const findAllModulesForCourse = (courseId) =>
-  model.find({ course: courseId });
-export const findModuleById = (moduleId) => model.findOne({ id: moduleId });
-export const updateModule = (moduleId, module) =>
-  model.updateOne({ _id: moduleId }, { $set: module });
-export const deleteModule = (moduleId) => model.deleteOne({ _id: moduleId });
+
+export const findAllModulesForCourse = async (courseId) => {
+  return await model.find({ course: courseId });
+};
+
+export const findModuleById = async (moduleId) => {
+  return await model.findOne({ id: moduleId });
+};
+
+export const updateModule = async (moduleId, module) => {
+  return await model.updateOne({ id: moduleId }, { $set: module });
+};
+
+export const deleteModule = async (moduleId) => {
+  return await model.deleteOne({ id: moduleId });
+};

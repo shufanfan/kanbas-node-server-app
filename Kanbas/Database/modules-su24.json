@@ -2,7 +2,7 @@
   {
     "name": "React JS",
     "description": "Learn the fundamentals of React JS, from basic concepts to advanced state management techniques, enabling you to build dynamic and responsive web applications.",
-    "course": "CS1234",
+    "course": "66a7fd5ea1626a0544205219",
     "lessons": [
       {
         "id": "L101",
@@ -27,7 +27,7 @@
   {
     "name": "React Components and State",
     "description": "Covers the design and use of components in React and how to manage state across components for dynamic content.",
-    "course": "CS1234",
+    "course": "66a7fd5ea1626a0544205219",
     "lessons": [
       {
         "id": "L201",
@@ -52,7 +52,7 @@
   {
     "name": "Advanced React",
     "description": "This module dives into more complex aspects of React including context, hooks, and advanced state management techniques.",
-    "course": "CS1234",
+    "course": "66a7fd5ea1626a0544205219",
     "lessons": [
       {
         "id": "L301",
@@ -78,7 +78,7 @@
   {
     "name": "Introduction to Computer Science",
     "description": "An overview of computer science, covering fundamental concepts, historical context, and basic computational thinking.",
-    "course": "CS5001",
+    "course": "66a7fd5ea1626a054420521a",
     "lessons": [
       {
         "_id": "L101",
@@ -103,7 +103,7 @@
   {
     "name": "Programming Fundamentals",
     "description": "Focuses on the basics of programming, using Python as the primary language to teach concepts applicable across programming languages.",
-    "course": "CS5001",
+    "course": "66a7fd5ea1626a054420521a",
     "lessons": [
       {
         "_id": "L201",
@@ -128,7 +128,7 @@
   {
     "name": "Advanced Topics in Computer Science",
     "description": "Explores advanced topics in computer science including algorithms, data analysis, and software design principles.",
-    "course": "CS5001",
+    "course": "66a7fd5ea1626a054420521a",
     "lessons": [
       {
         "_id": "L301",
@@ -154,7 +154,7 @@
   {
     "name": "Fundamentals of Discrete Mathematics",
     "description": "Introduction to discrete mathematics, covering the basics and providing a foundation for more advanced topics in the field.",
-    "course": "CS5002",
+    "course": "66a7fd5ea1626a054420521b",
     "lessons": [
       {
         "_id": "L101",
@@ -180,7 +180,7 @@
   {
     "name": "Algorithms and Complexity",
     "description": "Focuses on algorithmic strategies used in solving problems and analyzing their complexities within the scope of discrete structures.",
-    "course": "CS5002",
+    "course": "66a7fd5ea1626a054420521b",
     "lessons": [
       {
         "_id": "L201",
@@ -206,7 +206,7 @@
   {
     "name": "Advanced Topics in Discrete Mathematics",
     "description": "Delves into more complex and specialized topics in discrete mathematics, applicable to computer science and optimization.",
-    "course": "CS5002",
+    "course": "66a7fd5ea1626a054420521b",
     "lessons": [
       {
         "_id": "L301",
@@ -232,7 +232,7 @@
   {
     "name": "Principles of Object-Oriented Programming",
     "description": "Covers the foundational principles of object-oriented programming, including classes, objects, and methods.",
-    "course": "CS5004",
+    "course": "66a7fd5ea1626a054420521c",
     "lessons": [
       {
         "_id": "L101",
@@ -258,7 +258,7 @@
   {
     "name": "Design Patterns",
     "description": "Focuses on common design patterns and best practices in object-oriented design to solve typical software design problems.",
-    "course": "CS5004",
+    "course": "66a7fd5ea1626a054420521c",
     "lessons": [
       {
         "_id": "L201",
@@ -284,7 +284,7 @@
   {
     "name": "Advanced Object-Oriented Concepts",
     "description": "Delves into advanced topics in object-oriented design, including interfaces, abstract classes, and design principles.",
-    "course": "CS5004",
+    "course": "66a7fd5ea1626a054420521c",
     "lessons": [
       {
         "_id": "L301",
@@ -310,7 +310,7 @@
   {
     "name": "Introduction to data structures",
     "description": "Learn the basics of data structures, including arrays, linked lists, stacks, queues, and trees, and how to implement them in various programming languages.",
-    "course": "CS5008",
+    "course": "66a7fd5ea1626a054420521d",
     "lessons": [
       {
         "_id": "L101",
@@ -336,7 +336,7 @@
   {
     "name": "Sorting and Searching Algorithms",
     "description": "Covers various sorting and searching algorithms, their complexities, and their applications in real-world scenarios.",
-    "course": "CS5008",
+    "course": "66a7fd5ea1626a054420521d",
     "lessons": [
       {
         "_id": "L201",
@@ -362,7 +362,7 @@
   {
     "name": "Advanced Data Structures and Algorithms",
     "description": "Delves into more complex data structures and algorithms, including hash tables, heaps, and dynamic programming.",
-    "course": "CS5008",
+    "course": "66a7fd5ea1626a054420521d",
     "lessons": [
       {
         "_id": "L301",
@@ -388,7 +388,7 @@
   {
     "name": "Introduction to Computational Geometry",
     "description": "An introduction to computational geometry, covering basic concepts, algorithms, and applications in computer science and engineering.",
-    "course": "CS5350",
+    "course": "66a7fd5ea1626a054420521e",
     "lessons": [
       {
         "_id": "L101",
@@ -414,7 +414,7 @@
   {
     "name": "Geometric Algorithms",
     "description": "Focuses on algorithms for solving geometric problems, including intersection detection, polygon triangulation, and line segment intersection.",
-    "course": "CS5350",
+    "course": "66a7fd5ea1626a054420521e",
     "lessons": [
       {
         "_id": "L201",
@@ -440,7 +440,7 @@
   {
     "name": "Computational Geometry Applications",
     "description": "Explores applications of computational geometry in various fields, including computer graphics, robotics, and geographic information systems.",
-    "course": "CS5350",
+    "course": "66a7fd5ea1626a054420521e",
     "lessons": [
       {
         "_id": "L301",
@@ -466,7 +466,7 @@
   {
     "name": "Introduction to Algorithms",
     "description": "An introduction to algorithms, covering basic concepts, algorithmic design techniques, and analysis of algorithm efficiency.",
-    "course": "CS5800",
+    "course": "66a7fd5ea1626a054420521f",
     "lessons": [
       {
         "_id": "L101",
@@ -492,7 +492,7 @@
   {
     "name": "Greedy Algorithms",
     "description": "Focuses on greedy algorithms, their design principles, and applications in solving optimization problems.",
-    "course": "CS5800",
+    "course": "66a7fd5ea1626a054420521f",
     "lessons": [
       {
         "_id": "L201",
@@ -518,7 +518,7 @@
   {
     "name": "Graph Algorithms",
     "description": "Delves into algorithms for solving graph problems, including traversal, shortest paths, and network flow.",
-    "course": "CS5800",
+    "course": "66a7fd5ea1626a054420521f",
     "lessons": [
       {
         "_id": "L301",
@@ -544,7 +544,7 @@
   {
     "name": "Introduction to Human Computer Interation",
     "description": "An introduction to human-computer interaction, covering basic concepts, design principles, and usability testing.",
-    "course": "CS5340",
+    "course": "66a7fd5ea1626a0544205220",
     "lessons": [
       {
         "_id": "L101",
@@ -570,7 +570,7 @@
   {
     "name": "User Interface Design",
     "description": "Focuses on user interface design principles, including visual design, interaction design, and user experience.",
-    "course": "CS5340",
+    "course": "66a7fd5ea1626a0544205220",
     "lessons": [
       {
         "_id": "L201",
@@ -596,7 +596,7 @@
   {
     "name": "Mobile User Interface Design",
     "description": "Explores user interface design principles specific to mobile devices, including responsive design, touch interactions, and mobile usability.",
-    "course": "CS5340",
+    "course": "66a7fd5ea1626a0544205220",
     "lessons": [
       {
         "_id": "L301",
